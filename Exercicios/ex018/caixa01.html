@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            border-radius: 10px;
+            padding:5px; 
+            margin: 8px;
+            
+        }
+        nav {
+            background-color: #a09f9f;
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(255, 246, 246);
+            margin-right: 3px;
+    
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+        main{
+            background-color: white;
+            border-radius: 0px 10px;
+            padding:5px;
+            margin: 8px;
+
+        }
+        article{
+            background-color: rgb(171, 168, 168);
+            border-radius: 0px 10px ;
+        }
+        article > aside{
+            background-color: #8d8c8c;
+            color: white;
+            border-radius: 0px 10px;
+            width: 225px;
+            padding-left: 5px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+            text-align: center;
+            box-shadow: 0px 0px 20px black;
+        }
+        footer > nav{
+            background-color: black;
+        }
+      
+        
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a> 
+            </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="noticias">
+             <article>
+                <h2>noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum reprehenderit eaque ea. Deserunt quia omnis, atque pariatur dolores natus ipsam tenetur at alias labore velit dicta blanditiis. Laboriosam, rem debitis.</p>
+                <aside>
+                    <p>Aquivo escrito por Psyke stayol </p>
+                </aside>
+             </article>
+             <article>
+
+             </article>   
+        </section>
+    </main>
+    <footer>
+            <nav>
+                <a href="">
+                    <p>Desenvolvido pelo psyke</p>
+                </a>
+            </nav>
+    </footer>
+
+    
+</body>
+</html>

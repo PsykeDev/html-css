@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1em;
+        }
+        button:hover{
+            color: rgb(255, 255, 255);
+            text-decoration: underline;
+            font-weight: bolder;
+            box-shadow: 5px 5px 15px rgb(255, 0, 0);
+        }
+        button:active{
+            color: brown;
+            background-color: rgba(0, 0, 0, 0.412);
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.541);
+        }
+        main{
+            background-color: rgb(63, 62, 62);
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgb(140, 0, 0);
+            width: 400px;
+        }
+        button{
+            color: white;
+            background-color: black;
+            border-radius: 15px;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover> p{
+            display: block;
+            text-align: center;
+        }
+
+        p{
+            background-color: rgb(164, 161, 161);
+            width: 200px;
+            border-radius: 12px;
+            font-size: 14px;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+       <main>
+           <h1>Personalizando links</h1>
+            <ul>
+                <div>
+                    <li><a href="https://gustavoguanabara.github.io" class="git"><button>Repositorio do GitHub</button></a></li>
+                    <p >clica nessa porra ai</p>
+                </div>
+                <div>
+                    <li><a href="https://youtube.com/cursoemvideo/"><button>Canal do Youtube</button></a></li>
+                    <p >clica nesse tbm deixa de ser cabaço</p>
+                </div>
+                <div>
+                    <li><a href="https://www.cursoemvideo.com"><button>Site do cursoemvideo</button></a></li>
+                    <p>esse aqui é o mais importante seu merda</p>
+                </div>
+            </ul>
+       </main>
+       
+</body>
+</html>
