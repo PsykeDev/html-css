@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: darkgray;
+    min-height: 100vh;
+    font-family: var(--font1);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px  0px  50px  0px ;
+}
+
+header h1{
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 6vw;
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: var(--font2);
+    font-size: 3vw;
+    padding: 10vh  0px  10vh  20px ;
+    line-height: 5vw ;
+}
+
+section.texto{
+    background-color: white;
+}
+
+section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.212) ;
+    padding: 10px ;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
